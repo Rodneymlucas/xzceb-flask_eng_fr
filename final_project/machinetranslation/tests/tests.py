@@ -5,7 +5,7 @@ from translator import french_to_english
 class TestEnglishToFrench(unittest.TestCase):
     def test_english_to_french(self):
         self.assertEqual(english_to_french('Hello'), 'Bonjour')
-        #self.assertEqual(english_to_french(null), '')
+        self.assertEqual(english_to_french(null), '')
 
 class TestFrenchToEnglish(unittest.TestCase):
     def test_french_to_english(self):
